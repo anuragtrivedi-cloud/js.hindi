@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        .bg-black{
+          background-color: black;
+            color :white;
+        }
+    </style>
+</head>
+<body class = "bg-black">
+    
+</body>
+<script>
+    document.createElement('div')
+    console.log(document.createElement('div'));
+    div.className = "main"
+    div.id = Math.round(Math.random() *10 + 1)
+    div.setatribute('title', 'This is a div')
+    div.style.color = "red"
+
+    // div.innerText = "This is a div created by JavaScript"
+    const addText = document.createTextNode('This is a text node created by JavaScript')
+    div.appendChild(addText)
+
+    document.body.appendChild(div)
+</script>
+</html>
